@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <input type="color" id="seed-color" />
+        <select name="color-scheme-mode" id="color-scheme-mode">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-dark</option>
+          <option value="monochrome-light">Monochrome-light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+          <option value="triad">Triad</option>
+          <option value="quad">Quad</option>
+        </select>
+        <button id="get-scheme-btn">Get color scheme</button>
+      </div>
+    </header>
+    <main class="colors">
+      <div class="color-container" id="color-container-1"></div>
+      <div class="color-container" id="color-container-2"></div>
+      <div class="color-container" id="color-container-3"></div>
+      <div class="color-container" id="color-container-4"></div>
+      <div class="color-container" id="color-container-5"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
